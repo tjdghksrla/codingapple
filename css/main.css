@@ -1,3 +1,8 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareR.woff);
+}
+
 .profile {
     width: 100px; 
     display: block; 
@@ -196,4 +201,35 @@ table {
 }
 .cart-table th:nth-child(2) {
     width: 400px;
+}
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover { 
+    background-color: chocolate;
+}
+.btn:focus {
+    background-color: grey;
+}
+.btn:active {
+    background-color: brown;
+}
+
+.nav-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    background-color: hotpink;
+}
+.nav-item {
+    color: white;
+    margin: 5px;
+    font-size: 30px;
 }
